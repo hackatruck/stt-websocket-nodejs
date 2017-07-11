@@ -1,0 +1,29 @@
+{
+  "name": "stt-websocket-nodejs",
+  "version": "0.0.1",
+  "description": "Aplicativo node simples para exemplificar uso da api websocket do serviço watson speech to text",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackatruck/stt-websocket-nodejs.git"
+  },
+  "keywords": [
+    "watson",
+    "ibm",
+    "speech",
+    "to",
+    "text"
+  ],
+  "author": "Leandro Cordeiro David (ldavid@br.ibm.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackatruck/stt-websocket-nodejs/issues"
+  },
+  "homepage": "https://github.com/hackatruck/stt-websocket-nodejs#readme",
+  "dependencies": {
+    "ws": "^3.0.0"
+  }
+}
