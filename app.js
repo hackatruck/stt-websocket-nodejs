@@ -17,7 +17,6 @@ function onOpen(evt) {
     'content-type': 'audio/wav',
     'interim_results': true,
     'max-alternatives': 3,
-    keywords: ['colorado', 'tornado', 'tornadoes'],
     'keywords_threshold': 0.5
   };
   websocket.send(JSON.stringify(message));
