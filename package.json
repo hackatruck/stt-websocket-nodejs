@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/hackatruck/stt-websocket-nodejs#readme",
   "dependencies": {
+    "mic": "^2.1.1",
+    "watson-developer-cloud": "^2.34.0",
     "ws": "^3.0.0"
   }
 }
